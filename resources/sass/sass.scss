@@ -1,8 +1,23 @@
 @import "mqs";
 
 .cookies {
-  width: 100%;
-  font-size: 1.5em;
-  background-color: brown;
+  height: 100vh;
+  font-size: 1.1em;
   font-family: 'open sans', sans-serif;
+  div{
+    height: 105%;
+    width: 100%;
+    position: relative;
+    opacity: 0.9;
+    top: -105vh;
+    background-color: #8c7965;
+  }
+  button{
+    width: 100%;
+  }
+  p{
+    // position: relative;
+    opacity: 1.0;
+    color: white;
+  }
 }
