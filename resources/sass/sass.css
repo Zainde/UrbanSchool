@@ -1,5 +1,3 @@
-@import "mqs";
-
 #items {
   position: absolute;
   top: 9px;
@@ -11,34 +9,32 @@
   background-size: 2900%;
   background-repeat: no-repeat;
   cursor: pointer;
-  z-index: 2;
-}
+  z-index: 2; }
 
 .is-active {
   animation-name: animate;
   animation-duration: .8s;
   animation-iteration-count: 1;
   animation-timing-function: steps(28);
-  animation-fill-mode: forwards;
-}
+  animation-fill-mode: forwards; }
 
 @keyframes animate {
-  0%   { background-position: left;  }
-  50%  { background-position: right; }
-  100% { background-position: right; }
-}
+  0% {
+    background-position: left; }
+  50% {
+    background-position: right; }
+  100% {
+    background-position: right; } }
+#basket {
+  width: 40px; }
 
-#basket{
-  width: 40px;
-}
-
-.additem{
+.additem {
   width: 100px;
   height: 30px;
-  background: #479e56;
-}
+  background: #479e56; }
 
-.additem:hover{
+.additem:hover {
   background: #00ad50;
-  border: 1px #000;
-}
+  border: 1px #000; }
+
+/*# sourceMappingURL=sass.css.map */
