@@ -1,0 +1,45 @@
+$insert: 50%;
+$margin: 25px;
+$color1: #998675;
+
+
+#kontakt{
+display: grid;
+grid-template-columns: $insert $insert;
+column-gap: 5px;
+margin: $margin;
+font-size: 120%;
+}
+
+#kontakt h1{
+color: $color1;
+font-size: 250%;
+}
+#kontakt img{
+height: 100%;
+width: 100%;
+}
+
+footer figure{
+  display: inline-block;
+  margin-bottom: 5%;
+  padding: 15px;
+
+}
+
+#hide{
+  display: none;
+}
+#bot{
+  background-color: $color1;
+}
+
+.footer-logo figure{
+ display: block;
+ margin-bottom: 0px;
+}
+
+#banner{
+  margin: 0px 20px 15px 20px;
+  padding: 0px;
+}
