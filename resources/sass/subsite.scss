@@ -1,0 +1,43 @@
+$color1: #4c4c4c;
+$color2: #ae765e;
+$color3: #998675;
+
+header figure{
+background-color: $color1;
+padding: 0px;
+margin: 0px;
+width: 100%;
+margin-bottom: 3%;
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.ourshit{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 1%;
+  margin-bottom: 3%;
+}
+
+section{
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.ourshit img{
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+}
+
+.ourshit figure{
+padding: 0px;
+margin: 0px;
+width: 100%;
+margin-bottom: 3%;
+}
