@@ -1,11 +1,13 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+/* line 5, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 html,
 html a {
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
 
+/* line 11, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 body {
   background-color: #fff;
   color: #666;
@@ -14,20 +16,24 @@ body {
   margin: 0 auto;
 }
 
+/* line 19, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 a {
   border: 0 none;
   outline: 0;
   text-decoration: none;
 }
 
+/* line 25, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 strong {
   font-weight: bold;
 }
 
+/* line 29, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 p {
   margin: 0.75rem 0 0;
 }
 
+/* line 33, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 h1 {
   font-size: 0.75rem;
   font-weight: normal;
@@ -35,22 +41,26 @@ h1 {
   padding: 0;
 }
 
+/* line 40, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 input,
 button {
   border: 0 none;
   outline: 0 none;
 }
 
+/* line 46, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 button {
   background-color: #666;
   color: #fff;
 }
 
+/* line 51, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 button:hover,
 button:focus {
   background-color: #555;
 }
 
+/* line 56, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 img,
 .basket-module,
 .basket-labels,
@@ -58,6 +68,7 @@ img,
   width: 100%;
 }
 
+/* line 63, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 input,
 button,
 .basket,
@@ -73,6 +84,7 @@ button,
   float: left;
 }
 
+/* line 78, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .price:before,
 .subtotal:before,
 .subtotal-value:before,
@@ -81,10 +93,12 @@ button,
   content: '£';
 }
 
+/* line 86, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .hide {
   display: none;
 }
 
+/* line 90, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 main {
   clear: both;
   font-size: 0.75rem;
@@ -94,6 +108,7 @@ main {
   width: 960px;
 }
 
+/* line 99, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .basket,
 aside {
   padding: 0 1rem;
@@ -102,19 +117,23 @@ aside {
   box-sizing: border-box;
 }
 
+/* line 107, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .basket {
   width: 70%;
 }
 
+/* line 111, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .basket-module {
   color: #111;
 }
 
+/* line 115, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 label {
   display: block;
   margin-bottom: 0.3125rem;
 }
 
+/* line 120, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .promo-code-field {
   border: 1px solid #ccc;
   padding: 0.5rem;
@@ -127,11 +146,13 @@ label {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
+/* line 132, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .promo-code-field:hover,
 .promo-code-field:focus {
   border: 1px solid #999;
 }
 
+/* line 137, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .promo-code-cta {
   border-radius: 4px;
   font-size: 0.625rem;
@@ -139,43 +160,51 @@ label {
   padding: 0.6875rem 1.25rem 0.625rem;
 }
 
+/* line 144, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .basket-labels {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   margin-top: 1.625rem;
 }
 
+/* line 150, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+/* line 156, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 li {
   color: #111;
   display: inline-block;
   padding: 0.625rem 0;
 }
 
+/* line 162, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 li.price:before,
 li.subtotal:before {
   content: '';
 }
 
+/* line 167, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .item {
   width: 55%;
 }
 
+/* line 171, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .price,
 .quantity,
 .subtotal {
   width: 15%;
 }
 
+/* line 177, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .subtotal {
   text-align: right;
 }
 
+/* line 181, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .remove {
   bottom: 1.125rem;
   float: right;
@@ -185,6 +214,7 @@ li.subtotal:before {
   width: 45%;
 }
 
+/* line 190, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .remove button {
   background-color: transparent;
   color: #777;
@@ -193,6 +223,7 @@ li.subtotal:before {
   text-transform: uppercase;
 }
 
+/* line 198, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .item-heading {
   padding-left: 4.375rem;
   -webkit-box-sizing: border-box;
@@ -200,24 +231,29 @@ li.subtotal:before {
   box-sizing: border-box;
 }
 
+/* line 205, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .basket-product {
   border-bottom: 1px solid #ccc;
   padding: 1rem 0;
   position: relative;
 }
 
+/* line 211, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .product-image {
   width: 35%;
 }
 
+/* line 215, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .product-details {
   width: 65%;
 }
 
+/* line 219, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .product-frame {
   border: 1px solid #aaa;
 }
 
+/* line 223, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .product-details {
   padding: 0 1.5rem;
   -webkit-box-sizing: border-box;
@@ -225,6 +261,7 @@ li.subtotal:before {
   box-sizing: border-box;
 }
 
+/* line 230, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .quantity-field {
   background-color: #ccc;
   border: 1px solid #aaa;
@@ -234,12 +271,14 @@ li.subtotal:before {
   width: 3.75rem;
 }
 
+/* line 239, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 aside {
   float: right;
   position: relative;
   width: 30%;
 }
 
+/* line 245, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .summary {
   background-color: #eee;
   border: 1px solid #aaa;
@@ -251,12 +290,14 @@ aside {
   box-sizing: border-box;
 }
 
+/* line 256, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .summary-total-items {
   color: #666;
   font-size: 0.875rem;
   text-align: center;
 }
 
+/* line 262, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .summary-subtotal,
 .summary-total {
   border-top: 1px solid #ccc;
@@ -267,6 +308,7 @@ aside {
   padding: 0.5rem 0;
 }
 
+/* line 272, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .subtotal-title,
 .subtotal-value,
 .total-title,
@@ -278,6 +320,7 @@ aside {
   width: 50%;
 }
 
+/* line 283, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .summary-promo {
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
@@ -285,11 +328,13 @@ aside {
   transition: all .3s ease;
 }
 
+/* line 290, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .promo-title {
   float: left;
   width: 70%;
 }
 
+/* line 295, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .promo-value {
   color: #8B0000;
   float: left;
@@ -297,24 +342,29 @@ aside {
   width: 30%;
 }
 
+/* line 302, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .summary-delivery {
   padding-bottom: 3rem;
 }
 
+/* line 306, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .subtotal-value,
 .total-value {
   text-align: right;
 }
 
+/* line 311, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .total-title {
   font-weight: bold;
   text-transform: uppercase;
 }
 
+/* line 316, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .summary-checkout {
   display: block;
 }
 
+/* line 320, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .checkout-cta {
   display: block;
   float: none;
@@ -325,6 +375,7 @@ aside {
   width: 100%;
 }
 
+/* line 330, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
 .summary-delivery-selection {
   background-color: #ccc;
   border: 1px solid #aaa;
@@ -336,6 +387,7 @@ aside {
 }
 
 @media screen and (max-width: 640px) {
+  /* line 341, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   aside,
   .basket,
   .summary,
@@ -343,41 +395,52 @@ aside {
   .remove {
     width: 100%;
   }
+  /* line 348, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .basket-labels {
     display: none;
   }
+  /* line 351, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .basket-module {
     margin-bottom: 1rem;
   }
+  /* line 354, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .item {
     margin-bottom: 1rem;
   }
+  /* line 357, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .product-image {
     width: 40%;
   }
+  /* line 360, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .product-details {
     width: 60%;
   }
+  /* line 363, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .price,
   .subtotal {
     width: 33%;
   }
+  /* line 367, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .quantity {
     text-align: center;
     width: 34%;
   }
+  /* line 371, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .quantity-field {
     float: none;
   }
+  /* line 374, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .remove {
     bottom: 0;
     text-align: left;
     margin-top: 0.75rem;
     position: relative;
   }
+  /* line 380, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .remove button {
     padding: 0;
   }
+  /* line 383, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .summary {
     margin-top: 1.25rem;
     position: relative;
@@ -385,18 +448,22 @@ aside {
 }
 
 @media screen and (min-width: 641px) and (max-width: 960px) {
+  /* line 392, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   aside {
     padding: 0 1rem 0 0;
   }
+  /* line 395, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .summary {
     width: 28%;
   }
 }
 
 @media screen and (max-width: 960px) {
+  /* line 401, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   main {
     width: 100%;
   }
+  /* line 404, C:/Users/Trine/Documents/TrineWebProjekts/Urban/UrbanSchool/resources/sass/sass.scss */
   .product-details {
     padding: 0 1rem;
   }
@@ -446,3 +513,5 @@ aside {
   border: 1px #000;
 }
 */
+
+/*# sourceMappingURL=../css/sass.map */
