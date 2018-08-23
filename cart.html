@@ -7,15 +7,26 @@
     <title>Title</title>
     <!--<link rel="stylesheet" href="resources/sass/sass.css">-->
     <script src="resources/js/jquery-3.3.1.js"></script>
-    <link rel="stylesheet" href="resources/sass/sass.css">
+    <link rel="stylesheet" href="resources/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/openfont.css" type="text/css">
+    <link rel="stylesheet" href="resources/sass/shop.css" type="text/css">
+    <link rel="stylesheet" href="resources/sass/menu.css" type="text/css">
 </head>
+
+<nav id="menu">
+    <ul>
+        <li><a href="index.html" class="menu"><img src="resources/img/urban.png" id="logo" alt=""></a></li>
+        <li><a href="urban.html" class="menu urban"><div>URBAN</div></a></li>
+        <li><a href="daad.html" class="menu"><div>DAAD</div></a></li>
+        <li><a href="lorenzo.html" class="menu"><div>LORENZO</div></a></li>
+        <li><a href="vertice.html" class="menu"><div>VERTICE</div></a></li>
+        <li><a href="autognome.html" class="menu"><div>AUTOGNOME</div></a></li>
+        <li><a href="index.html" class="menu"><img src="resources/img/shopping-basket.svg" id="cart-logo" alt=""></a></li>
+    </ul>
+</nav>
+
 <main>
     <div class="basket">
-        <div class="basket-module">
-            <label for="promo-code">Enter a promotional code</label>
-            <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
-            <button class="promo-code-cta">Apply</button>
-        </div>
         <div class="basket-labels">
             <ul>
                 <li class="item item-heading">Item</li>
@@ -30,16 +41,16 @@
                     <img src="resources/files/GFX/front/Img-Auto-001.jpg" alt="Placholder Image 2" class="product-frame">
                 </div>
                 <div class="product-details">
-                    <h1><strong><span class="item-quantity">4</span> x Eliza J</strong> Lace Sleeve Cuff Dress</h1>
+                    <h1><strong><span class="item-quantity">2</span> x Hougaard</strong>  Blazer </h1>
                     <p><strong>Gray, Size 18</strong></p>
                     <p>Product Code - 232321939</p>
                 </div>
             </div>
-            <div class="price">26.00</div>
+            <div class="price">92.00</div>
             <div class="quantity">
-                <input type="number" value="4" min="1" class="quantity-field">
+                <input type="number" value="2" min="1" class="quantity-field">
             </div>
-            <div class="subtotal">104.00</div>
+            <div class="subtotal">184.00</div>
             <div class="remove">
                 <button>Remove</button>
             </div>
@@ -50,19 +61,24 @@
                     <img src="resources/files/GFX/front/Img-Auto-002.jpg" alt="Placholder Image 2" class="product-frame">
                 </div>
                 <div class="product-details">
-                    <h1><strong><span class="item-quantity">1</span> x Whistles</strong> Amella Lace Midi Dress</h1>
+                    <h1><strong><span class="item-quantity">1</span> x Knights</strong> Long sleeved jacket</h1>
                     <p><strong>Gray, Size 10</strong></p>
                     <p>Product Code - 232321939</p>
                 </div>
             </div>
-            <div class="price">26.00</div>
+            <div class="price">84.00</div>
             <div class="quantity">
                 <input type="number" value="1" min="1" class="quantity-field">
             </div>
-            <div class="subtotal">26.00</div>
+            <div class="subtotal">84.00</div>
             <div class="remove">
                 <button>Remove</button>
             </div>
+        </div>
+        <div class="basket-module">
+            <label for="promo-code">Enter a promotional code</label>
+            <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+            <button class="promo-code-cta">Apply</button>
         </div>
     </div>
     <aside>
@@ -70,7 +86,7 @@
             <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
             <div class="summary-subtotal">
                 <div class="subtotal-title">Subtotal</div>
-                <div class="subtotal-value final-value" id="basket-subtotal">130.00</div>
+                <div class="subtotal-value final-value" id="basket-subtotal">268.00</div>
                 <div class="summary-promo hide">
                     <div class="promo-title">Promotion</div>
                     <div class="promo-value final-value" id="basket-promo"></div>
