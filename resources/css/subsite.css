@@ -19,13 +19,13 @@ header figure {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-column-gap: 1%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 section {
-  font-size: 270%;
+  font-size: 300%;
   text-align: center;
-  margin-bottom: 6%;
+  margin-bottom: 5%;
 }
 
 .ourshit img {
