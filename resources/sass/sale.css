@@ -1,7 +1,7 @@
 body{
   color: white;
 background-color: #E2794C;
-font-size: 200%;
+font-size: 160%;
 }
 
 .shadow{
@@ -10,4 +10,12 @@ font-size: 200%;
   box-shadow: 0px 0px 0px 0px #ccc;
 background-color: #E2794C;
 color: black;
+}
+
+s{
+  font-size: 50%;
+}
+
+video{
+  max-width: 100%;
 }
