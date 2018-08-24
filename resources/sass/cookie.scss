@@ -1,0 +1,17 @@
+.cookies{
+  display: block;
+  position: fixed;
+  background-color: grey;
+  opacity: 0.8;
+  bottom: 2%;
+  font-size: 5em;
+  color: white;
+  p{
+display: inline;
+ }
+  button{
+    display: inline;
+    float: right;
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/sass.css",
+	"sources": [
+		"../sass/sass.scss"
+	],
+	"sourcesContent": [
+		"/* hover effect on img */\r\n.ourshit {\r\n\r\nfigure:hover img{\r\n  opacity: 0.5;\r\n  background-color: white;\r\n  transform: scale(1.2, 1.2);\r\n\r\n}\r\nfigure{\r\n  position: relative;\r\n  height: 250px;\r\n  display: inline;\r\n  overflow: hidden;\r\n}\r\nfigure:hover figcaption{\r\nposition: absolute;\r\ntop: -100%;\r\n}\r\n\r\nfigcaption{\r\n  position: absolute;\r\n}\r\n\r\n}\r\n#back{\r\n  display: none;\r\n  position: absolute;\r\n  opacity: 0.8;\r\n  background-color: black;\r\n  height: 100vh;\r\n  width: 100vw;\r\n}\r\n#front{\r\n  position: absolute;\r\n  display: none;\r\n  height: 100vh;\r\n  width: 100vw;\r\n  /* display: flex; */\r\n  justify-content: center;\r\n  align-content: center;\r\n  align-items: center;\r\n}\r\n"
+	],
+	"mappings": "AAAA,yBAAyB;;AACzB,AAEa,QAFL,CAER,MAAM,AAAA,MAAM,CAAC,GAAG,CAAA;EACd,OAAO,EAAE,GAAI;EACb,gBAAgB,EAAE,KAAM;EACxB,SAAS,EAAE,eAAK;CAEjB;;;AAPD,AAQA,QARQ,CAQR,MAAM,CAAA;EACJ,QAAQ,EAAE,QAAS;EACnB,MAAM,EAAE,KAAM;EACd,OAAO,EAAE,MAAO;EAChB,QAAQ,EAAE,MAAO;CAClB;;;AAbD,AAca,QAdL,CAcR,MAAM,AAAA,MAAM,CAAC,UAAU,CAAA;EACvB,QAAQ,EAAE,QAAS;EACnB,GAAG,EAAE,KAAM;CACV;;;AAjBD,AAmBA,QAnBQ,CAmBR,UAAU,CAAA;EACR,QAAQ,EAAE,QAAS;CACpB;;;AAGD,AAAA,KAAK,CAAA;EACH,OAAO,EAAE,IAAK;EACd,QAAQ,EAAE,QAAS;EACnB,OAAO,EAAE,GAAI;EACb,gBAAgB,EAAE,KAAM;EACxB,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,KAAM;CACd;;;AACD,AAAA,MAAM,CAAA;EACJ,QAAQ,EAAE,QAAS;EACnB,OAAO,EAAE,IAAK;EACd,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,KAAM;EACb,oBAAoB;EACpB,eAAe,EAAE,MAAO;EACxB,aAAa,EAAE,MAAO;EACtB,WAAW,EAAE,MAAO;CACrB",
+	"names": []
+}

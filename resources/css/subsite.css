@@ -47,55 +47,53 @@ section {
   margin-bottom: 3%;
 }
 
-/*# sourceMappingURL=../css/subsite.map */
-
-
-*{
-  margin: 0;
-  padding: 0;
-}
 /* hover effect on img */
-figure:hover img{
+/* line 48, C:/Users/Zainde/github/UrbanSchool/resources/sass/subsite.scss */
+.ourshit figure:hover img {
   opacity: 0.5;
   background-color: white;
   transform: scale(1.2, 1.2);
-
 }
-figure{
+
+/* line 54, C:/Users/Zainde/github/UrbanSchool/resources/sass/subsite.scss */
+.ourshit figure {
   position: relative;
   height: 250px;
   display: inline;
   overflow: hidden;
 }
-figure:hover figcaption{
-position: absolute;
-top: -100%;
+
+/* line 60, C:/Users/Zainde/github/UrbanSchool/resources/sass/subsite.scss */
+.ourshit figure:hover figcaption {
+  position: absolute;
+  top: -100%;
 }
 
-
-figcaption{
+/* line 65, C:/Users/Zainde/github/UrbanSchool/resources/sass/subsite.scss */
+.ourshit figcaption {
   position: absolute;
 }
 
-
-#back{
+/* line 70, C:/Users/Zainde/github/UrbanSchool/resources/sass/subsite.scss */
+#back {
   display: none;
   position: absolute;
   opacity: 0.8;
   background-color: black;
-  height: 250vh;
+  height: 100vh;
   width: 100vw;
-  z-index: 1;
 }
-#front{
-  position: fixed;
+
+/* line 78, C:/Users/Zainde/github/UrbanSchool/resources/sass/subsite.scss */
+#front {
+  position: absolute;
   display: none;
   height: 100vh;
   width: 100vw;
-  top: 0;
   /* display: flex; */
   justify-content: center;
   align-content: center;
   align-items: center;
-  z-index: 2;
 }
+
+/*# sourceMappingURL=../css/subsite.map */

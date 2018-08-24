@@ -1,0 +1,24 @@
+/* line 1, C:/Users/Zainde/github/UrbanSchool/resources/sass/cookie.scss */
+.cookies {
+  display: block;
+  position: fixed;
+  background-color: grey;
+  opacity: 0.8;
+  bottom: 2%;
+  font-size: 5em;
+  color: white;
+}
+
+/* line 9, C:/Users/Zainde/github/UrbanSchool/resources/sass/cookie.scss */
+.cookies p {
+  display: inline;
+}
+
+/* line 12, C:/Users/Zainde/github/UrbanSchool/resources/sass/cookie.scss */
+.cookies button {
+  display: inline;
+  float: right;
+  font-size: 1em;
+}
+
+/*# sourceMappingURL=../css/cookie.map */

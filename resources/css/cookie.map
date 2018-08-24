@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/cookie.css",
+	"sources": [
+		"../sass/cookie.scss"
+	],
+	"sourcesContent": [
+		".cookies{\r\n  display: block;\r\n  position: fixed;\r\n  background-color: grey;\r\n  opacity: 0.8;\r\n  bottom: 2%;\r\n  font-size: 5em;\r\n  color: white;\r\n  p{\r\ndisplay: inline;\r\n }\r\n  button{\r\n    display: inline;\r\n    float: right;\r\n    font-size: 1em;\r\n  }\r\n}\r\n"
+	],
+	"mappings": ";AAAA,AAAA,QAAQ,CAAA;EACN,OAAO,EAAE,KAAM;EACf,QAAQ,EAAE,KAAM;EAChB,gBAAgB,EAAE,IAAK;EACvB,OAAO,EAAE,GAAI;EACb,MAAM,EAAE,EAAG;EACX,SAAS,EAAE,GAAI;EACf,KAAK,EAAE,KAAM;CASd;;;AAhBD,AAQE,QARM,CAQN,CAAC,CAAA;EACH,OAAO,EAAE,MAAO;CACd;;;AAVF,AAWE,QAXM,CAWN,MAAM,CAAA;EACJ,OAAO,EAAE,MAAO;EAChB,KAAK,EAAE,KAAM;EACb,SAAS,EAAE,GAAI;CAChB",
+	"names": []
+}
