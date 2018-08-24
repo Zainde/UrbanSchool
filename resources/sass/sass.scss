@@ -21,3 +21,52 @@
     color: white;
   }
 }
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* hover effect on img */
+figure:hover img{
+  opacity: 0.5;
+  background-color: white;
+  transform: scale(1.2, 1.2);
+
+}
+figure{
+  position: relative;
+  height: 250px;
+  display: inline;
+  overflow: hidden;
+}
+figure:hover figcaption{
+position: absolute;
+top: -100%;
+}
+
+
+figcaption{
+  position: absolute;
+}
+
+
+#back{
+  display: none;
+  position: absolute;
+  opacity: 0.8;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+#front{
+  position: absolute;
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  /* display: flex; */
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
