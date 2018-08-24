@@ -1,0 +1,13 @@
+body{
+  color: white;
+background-color: #E2794C;
+font-size: 200%;
+}
+
+.shadow{
+  -webkit-box-shadow: 0px 0px 0px 0px #ccc;
+  -moz-box-shadow: 0px 0px 0px 0px #ccc;
+  box-shadow: 0px 0px 0px 0px #ccc;
+background-color: #E2794C;
+color: black;
+}
