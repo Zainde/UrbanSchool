@@ -1,0 +1,64 @@
+#menu {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background: #E2794C;
+  color: #fff;
+  z-index: 100;
+
+  a{
+    color: #fff;
+  }
+
+  ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+
+    li{
+      padding: 0!important;
+      height: 30px;
+
+      div{
+        text-align: center;
+        vertical-align: middle;
+        line-height: 30px;
+        height: 100%;
+        width: 100%;
+      }
+
+      div:hover{
+        background: #cbcbcb;
+      }
+
+      #logo{
+        height: 13px;
+        padding-top: 0.525rem;
+        padding-left: 1px;
+      }
+
+      #cart-logo{
+        padding: 0.425rem 0;
+        height: 16px;
+      }
+
+      img:hover{
+        background: #cbcbcb;
+      }
+
+      a{
+        text-align: center;
+      }
+
+      .urban div{
+        margin-left: 5px;
+      }
+
+
+    }
+
+
+  }
+}

@@ -1,0 +1,72 @@
+$color1: #4c4c4c;
+$color2: #ae765e;
+$color3: #998675;
+
+
+#kontakt{
+display: grid;
+grid-template-columns: 43% 50%;
+grid-column-gap: 5%;
+padding: 1% 5%;
+font-size: 26px;
+}
+
+#kontakt h1{
+color: $color3;
+font-weight: bold;
+font-size: 29px;
+}
+
+#kontakt h2{
+  color: $color2;
+  font-weight: normal;
+  margin-top: 1%;
+}
+
+#kontakt img{
+height: 100%;
+width: 100%;
+}
+
+footer{
+  background-color: $color1;
+}
+
+footer figure{
+  display: inline-block;
+  margin-bottom: 5%;
+  padding: 15px;
+}
+
+#lineup figure{
+  margin: 0px;
+  padding: 0px;
+  margin: 2px;
+}
+#lineup{
+margin-bottom: 5%;
+}
+
+#hide{
+  display: none;
+}
+
+.footer-logo figure{
+ display: block;
+ margin: 0;
+ margin-bottom: 0px;
+ padding: 0;
+ width: 100%;
+}
+
+#banner{
+  margin: 0px;
+  margin-bottom: 2%;
+  padding: 0px;
+}
+#banner figure{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  margin-bottom: 1%;
+}
