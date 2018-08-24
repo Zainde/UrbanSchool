@@ -1,3 +1,4 @@
+/* line 6, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 #kontakt {
   display: grid;
   grid-template-columns: 43% 50%;
@@ -6,47 +7,56 @@
   font-size: 26px;
 }
 
+/* line 14, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 #kontakt h1 {
   color: #998675;
   font-weight: bold;
   font-size: 29px;
 }
 
+/* line 20, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 #kontakt h2 {
   color: #ae765e;
   font-weight: normal;
   margin-top: 1%;
 }
 
+/* line 26, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 #kontakt img {
   height: 100%;
   width: 100%;
 }
 
+/* line 31, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 footer {
   background-color: #4c4c4c;
 }
 
+/* line 35, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 footer figure {
   display: inline-block;
   margin-bottom: 5%;
   padding: 15px;
 }
 
+/* line 41, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 #lineup figure {
   margin: 0px;
   padding: 0px;
   margin: 2px;
 }
 
+/* line 46, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 #lineup {
   margin-bottom: 5%;
 }
 
+/* line 50, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 #hide {
   display: none;
 }
 
+/* line 54, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 .footer-logo figure {
   display: block;
   margin: 0;
@@ -55,15 +65,19 @@ footer figure {
   width: 100%;
 }
 
+/* line 62, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 #banner {
   margin: 0px;
   margin-bottom: 2%;
   padding: 0px;
 }
 
+/* line 67, C:/Users/Zainde/github/UrbanSchool/resources/sass/grid.scss */
 #banner figure {
   padding: 0px;
   margin: 0px;
   width: 100%;
   margin-bottom: 1%;
 }
+
+/*# sourceMappingURL=../css/grid.map */

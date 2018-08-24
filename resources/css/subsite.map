@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/subsite.css",
+	"sources": [
+		"../sass/subsite.scss"
+	],
+	"sourcesContent": [
+		"$color1: #4c4c4c;\r\n$color2: #ae765e;\r\n$color3: #998675;\r\n\r\nheader figure{\r\nbackground-color: $color1;\r\npadding: 0px;\r\nmargin: 0px;\r\nwidth: 100%;\r\nmargin-bottom: 3%;\r\n}\r\n\r\n.shadow {\r\n  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */\r\n  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */\r\n  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */\r\n}\r\n\r\n.ourshit{\r\n  display: grid;\r\n  grid-template-columns: 50% 50%;\r\n  grid-column-gap: 1%;\r\n  margin-bottom: 3%;\r\n}\r\n\r\nsection{\r\n  font-size: 300%;\r\n  text-align: center;\r\n  margin-bottom: 5%;\r\n}\r\n\r\n.ourshit img{\r\n  width: 100%;\r\n  display: inline-block;\r\n  height: 100%;\r\n}\r\n\r\n.ourshit figure{\r\npadding: 0px;\r\nmargin: 0px;\r\nwidth: 100%;\r\nmargin-bottom: 3%;\r\n}\r\n"
+	],
+	"mappings": ";AAIA,AAAO,MAAD,CAAC,MAAM,CAAA;EACb,gBAAgB,EALP,OAAO;EAMhB,OAAO,EAAE,GAAI;EACb,MAAM,EAAE,GAAI;EACZ,KAAK,EAAE,IAAK;EACZ,aAAa,EAAE,EAAG;CACjB;;;AAED,AAAA,OAAO,CAAC;EACN,kBAAkB,EAAE,oBAAqB;EAAG,+CAA+C;EAC3F,eAAe,EAAK,oBAAqB;EAAG,uBAAuB;EACnE,UAAU,EAAU,oBAAqB;EAAG,oDAAoD;CACjG;;;AAED,AAAA,QAAQ,CAAA;EACN,OAAO,EAAE,IAAK;EACd,qBAAqB,EAAE,OAAQ;EAC/B,eAAe,EAAE,EAAG;EACpB,aAAa,EAAE,EAAG;CACnB;;;AAED,AAAA,OAAO,CAAA;EACL,SAAS,EAAE,IAAK;EAChB,UAAU,EAAE,MAAO;EACnB,aAAa,EAAE,EAAG;CACnB;;;AAED,AAAS,QAAD,CAAC,GAAG,CAAA;EACV,KAAK,EAAE,IAAK;EACZ,OAAO,EAAE,YAAa;EACtB,MAAM,EAAE,IAAK;CACd;;;AAED,AAAS,QAAD,CAAC,MAAM,CAAA;EACf,OAAO,EAAE,GAAI;EACb,MAAM,EAAE,GAAI;EACZ,KAAK,EAAE,IAAK;EACZ,aAAa,EAAE,EAAG;CACjB",
+	"names": []
+}

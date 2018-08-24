@@ -1,0 +1,72 @@
+/* line 1, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background: #E2794C;
+  color: #fff;
+  z-index: 100;
+}
+
+/* line 11, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu a {
+  color: #fff;
+}
+
+/* line 15, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* line 20, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu ul li {
+  padding: 0 !important;
+  height: 30px;
+}
+
+/* line 24, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu ul li div {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 32, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu ul li div:hover {
+  background: #cbcbcb;
+}
+
+/* line 36, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu ul li #logo {
+  height: 13px;
+  padding-top: 0.525rem;
+  padding-left: 1px;
+}
+
+/* line 42, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu ul li #cart-logo {
+  padding: 0.425rem 0;
+  height: 16px;
+}
+
+/* line 47, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu ul li img:hover {
+  background: #cbcbcb;
+}
+
+/* line 51, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu ul li a {
+  text-align: center;
+}
+
+/* line 55, C:/Users/Zainde/github/UrbanSchool/resources/sass/menu.scss */
+#menu ul li .urban div {
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=../css/menu.map */

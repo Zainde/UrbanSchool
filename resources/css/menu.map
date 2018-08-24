@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/menu.css",
+	"sources": [
+		"../sass/menu.scss"
+	],
+	"sourcesContent": [
+		"#menu {\r\n  overflow: hidden;\r\n  position: fixed;\r\n  bottom: 0;\r\n  width: 100%;\r\n  height: 30px;\r\n  background: #E2794C;\r\n  color: #fff;\r\n  z-index: 100;\r\n\r\n  a{\r\n    color: #fff;\r\n  }\r\n\r\n  ul{\r\n    display: grid;\r\n    grid-template-columns: repeat(7, 1fr);\r\n\r\n\r\n    li{\r\n      padding: 0!important;\r\n      height: 30px;\r\n\r\n      div{\r\n        text-align: center;\r\n        vertical-align: middle;\r\n        line-height: 30px;\r\n        height: 100%;\r\n        width: 100%;\r\n      }\r\n\r\n      div:hover{\r\n        background: #cbcbcb;\r\n      }\r\n\r\n      #logo{\r\n        height: 13px;\r\n        padding-top: 0.525rem;\r\n        padding-left: 1px;\r\n      }\r\n\r\n      #cart-logo{\r\n        padding: 0.425rem 0;\r\n        height: 16px;\r\n      }\r\n\r\n      img:hover{\r\n        background: #cbcbcb;\r\n      }\r\n\r\n      a{\r\n        text-align: center;\r\n      }\r\n\r\n      .urban div{\r\n        margin-left: 5px;\r\n      }\r\n\r\n\r\n    }\r\n\r\n\r\n  }\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,KAAK,CAAC;EACJ,QAAQ,EAAE,MAAO;EACjB,QAAQ,EAAE,KAAM;EAChB,MAAM,EAAE,CAAE;EACV,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;EACb,UAAU,EAAE,OAAQ;EACpB,KAAK,EAAE,IAAK;EACZ,OAAO,EAAE,GAAI;CAuDd;;;AA/DD,AAUE,KAVG,CAUH,CAAC,CAAA;EACC,KAAK,EAAE,IAAK;CACb;;;AAZH,AAcE,KAdG,CAcH,EAAE,CAAA;EACA,OAAO,EAAE,IAAK;EACd,qBAAqB,EAAE,cAAM;CA8C9B;;;AA9DH,AAmBI,KAnBC,CAcH,EAAE,CAKA,EAAE,CAAA;EACA,OAAO,EAAE,CAAC,CAAA,UAAU;EACpB,MAAM,EAAE,IAAK;CAsCd;;;AA3DL,AAuBM,KAvBD,CAcH,EAAE,CAKA,EAAE,CAIA,GAAG,CAAA;EACD,UAAU,EAAE,MAAO;EACnB,cAAc,EAAE,MAAO;EACvB,WAAW,EAAE,IAAK;EAClB,MAAM,EAAE,IAAK;EACb,KAAK,EAAE,IAAK;CACb;;;AA7BP,AA+BS,KA/BJ,CAcH,EAAE,CAKA,EAAE,CAYA,GAAG,AAAA,MAAM,CAAA;EACP,UAAU,EAAE,OAAQ;CACrB;;;AAjCP,AAmCM,KAnCD,CAcH,EAAE,CAKA,EAAE,CAgBA,KAAK,CAAA;EACH,MAAM,EAAE,IAAK;EACb,WAAW,EAAE,QAAS;EACtB,YAAY,EAAE,GAAI;CACnB;;;AAvCP,AAyCM,KAzCD,CAcH,EAAE,CAKA,EAAE,CAsBA,UAAU,CAAA;EACR,OAAO,EAAE,UAAW;EACpB,MAAM,EAAE,IAAK;CACd;;;AA5CP,AA8CS,KA9CJ,CAcH,EAAE,CAKA,EAAE,CA2BA,GAAG,AAAA,MAAM,CAAA;EACP,UAAU,EAAE,OAAQ;CACrB;;;AAhDP,AAkDM,KAlDD,CAcH,EAAE,CAKA,EAAE,CA+BA,CAAC,CAAA;EACC,UAAU,EAAE,MAAO;CACpB;;;AApDP,AAsDa,KAtDR,CAcH,EAAE,CAKA,EAAE,CAmCA,MAAM,CAAC,GAAG,CAAA;EACR,WAAW,EAAE,GAAI;CAClB",
+	"names": []
+}
